@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Technology | LEP – Light Emitting Plants</title>
-<meta name="description" content="LEPは、独自の自発光化・高光度化技術により、電力不要で環境負荷の低い「自ら光る植物」の社会実装を目指します。">
+<meta name="description" content="LEPの独自技術 - 蛍光・化学発光タンパク質を基盤とした発光遺伝子技術">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🌿</text></svg>">
 </head>
@@ -15,13 +15,12 @@
   <a href="index.html" class="logo">LEP</a>
   <nav class="nav-links" id="navLinks">
     <a href="index.html">HOME</a>
-<a href="about.html">ABOUT</a>
-<a href="technology.html" class="active">TECHNOLOGY</a>
-<a href="projects.html">PROJECTS</a>
-<a href="company.html">COMPANY</a>
-<a href="news.html">NEWS</a>
-<a href="faq.html">FAQ</a>
-
+    <a href="about.html">ABOUT</a>
+    <a href="technology.html" class="active">TECHNOLOGY</a>
+    <a href="projects.html">PROJECTS</a>
+    <a href="company.html">COMPANY</a>
+    <a href="news.html">NEWS</a>
+    <a href="faq.html">FAQ</a>
     <a href="contact.html" class="nav-cta">お問い合わせ</a>
   </nav>
   <button class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
@@ -30,69 +29,147 @@
 </div>
 </header>
 
-<section class="page-header" style="background-image:linear-gradient(rgba(10,15,12,0.8),rgba(10,15,12,0.9)),url('images/P5_monstera.jpg');background-size:cover;background-position:center;">
+<section class="section-dark" style="padding:160px 0 80px;">
   <div class="container">
-    <h1>Technology</h1>
-    <p>LEPの独自技術が生み出す3つの革新</p>
+    <p style="font-family:var(--serif);font-size:0.72rem;letter-spacing:0.3em;color:var(--lep-gold);text-transform:uppercase;margin-bottom:16px;">Technology</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+      <div>
+        <h1 style="font-family:'Noto Serif JP',serif;font-size:clamp(1.6rem,2.8vw,2.2rem);font-weight:600;color:#fff;line-height:1.6;margin-bottom:24px;">蛍光・化学発光タンパク質を基盤とした発光遺伝子技術</h1>
+        <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);line-height:2;">LEPの基盤技術は、蛍光タンパク質および化学発光タンパク質を利用した発光遺伝子技術（bioluminescent genetic system）です。この技術は、生体内の分子や細胞の活動を可視化するバイオイメージング技術として発展してきたものであり、生命科学研究、医学研究、創薬研究において広く利用されています。</p>
+        <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);line-height:2;margin-top:16px;">LEPでは、この技術を基盤として発光遺伝子を植物に導入することで自発光植物を実現する技術開発を行っています。</p>
+      </div>
+      <div>
+        <img src="images/tech_02_brightness.jpg" alt="BRET原理図" style="width:100%;border-radius:4px;">
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container" style="max-width:800px;text-align:center;">
-    <p class="section-subtitle" style="margin:0 auto;">LEPは、大阪大学で発見・開発された世界最先端のバイオルミネセンス技術を基盤に、「自発光化」「高光度化」「多色化」の3つのコア技術によって、植物を新しい光源へと進化させています。</p>
-  </div>
-</section>
-
-<section class="section-cream section">
   <div class="container">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-bottom:80px;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;">
       <div>
-        <div class="section-label">01</div>
-        <h2 class="section-title">自律的な発光</h2>
-        <p style="font-family:var(--serif);font-size:0.85rem;color:var(--lep-gray);letter-spacing:0.1em;margin-bottom:16px;">Autonomous Luminescence</p>
-        <h3 style="font-size:1.1rem;font-weight:500;color:var(--lep-green);margin-bottom:16px;">基質添加が不要な「自発光化」技術</h3>
-        <p style="font-size:0.88rem;color:#555;line-height:1.9;">発光キノコの生物発光システムを植物内で再設計。外部からの基質添加なしで、持続的に光る自律的な回路を構築しています。植物自身が持つ代謝機構を活用し、水と光合成のエネルギーだけで発光を維持します。</p>
+        <img src="images/tech_01_luminescence.jpg" alt="発光植物" style="width:100%;border-radius:4px;">
       </div>
-      <div><img src="images/P7_spanish_moss.jpg" alt="自発光するスパニッシュモス" style="border-radius:4px;"></div>
-    </div>
-
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-bottom:80px;">
-      <div><img src="images/P3_hydrangea.jpg" alt="発光する紫陽花" style="border-radius:4px;"></div>
       <div>
-        <div class="section-label">02</div>
-        <h2 class="section-title">明るさの向上</h2>
-        <p style="font-family:var(--serif);font-size:0.85rem;color:var(--lep-gray);letter-spacing:0.1em;margin-bottom:16px;">High Brightness</p>
-        <h3 style="font-size:1.1rem;font-weight:500;color:var(--lep-green);margin-bottom:16px;">卓越した「高光度化」技術</h3>
-        <p style="font-size:0.88rem;color:#555;line-height:1.9;">発光酵素と蛍光タンパク質を融合させた独自技術<strong>「ナノランタン」</strong>により、エネルギー移動を最適化。</p>
-        <p style="font-family:var(--serif);font-size:3rem;font-weight:700;color:var(--lep-green);margin:24px 0;">従来比 20倍</p>
-        <p style="font-size:0.85rem;color:#555;">の明るさを実現し、実用レベルの光量を達成しています。</p>
+        <p style="font-family:var(--serif);font-size:0.72rem;letter-spacing:0.2em;color:var(--lep-green);margin-bottom:12px;">Feature</p>
+        <h2 style="font-family:'Noto Serif JP',serif;font-size:clamp(1.4rem,2.4vw,1.8rem);font-weight:600;margin-bottom:20px;">従来技術の課題</h2>
+        <p style="font-size:0.85rem;color:#555;line-height:1.9;margin-bottom:28px;">蛍光タンパク質および化学発光タンパク質は、生体内の分子や細胞活動を可視化するバイオイメージング技術として広く利用されています。しかし従来技術には以下の課題がありました。</p>
+        
+        <div style="border:1px solid #e8e8e8;border-radius:4px;padding:24px;margin-bottom:16px;">
+          <p style="font-family:var(--serif);font-size:0.7rem;color:var(--lep-green);letter-spacing:0.15em;margin-bottom:8px;">01</p>
+          <h3 style="font-size:1rem;font-weight:600;margin-bottom:12px;">蛍光イメージング</h3>
+          <p style="font-size:0.82rem;color:#666;line-height:1.8;">・観察には強い励起光が必要<br>・光照射による細胞損傷（phototoxicity）が発生<br>・長時間観察が困難</p>
+        </div>
+        
+        <div style="border:1px solid #e8e8e8;border-radius:4px;padding:24px;margin-bottom:24px;">
+          <p style="font-family:var(--serif);font-size:0.7rem;color:var(--lep-green);letter-spacing:0.15em;margin-bottom:8px;">02</p>
+          <h3 style="font-size:1rem;font-weight:600;margin-bottom:12px;">化学発光イメージング</h3>
+          <p style="font-size:0.82rem;color:#666;line-height:1.8;">・発光シグナルが弱い<br>・リアルタイム観察が困難</p>
+        </div>
+        
+        <p style="font-size:0.88rem;color:#333;line-height:1.9;">このため「光照射を必要とせず、高輝度で観察可能な発光システム」の開発が求められていました。</p>
       </div>
-    </div>
-
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
-      <div>
-        <div class="section-label">03</div>
-        <h2 class="section-title">多彩な表現力</h2>
-        <p style="font-family:var(--serif);font-size:0.85rem;color:var(--lep-gray);letter-spacing:0.1em;margin-bottom:16px;">Multi-Color</p>
-        <h3 style="font-size:1.1rem;font-weight:500;color:var(--lep-green);margin-bottom:16px;">最先端の「多色化」技術</h3>
-        <p style="font-size:0.88rem;color:#555;line-height:1.9;">光の波長を高度に制御することで、発光タンパク質において約20色のバリエーションを実現。将来的にはイルミネーションや景観演出に無限の可能性をもたらします。</p>
-        <p style="font-family:var(--serif);font-size:3rem;font-weight:700;color:var(--lep-green);margin:24px 0;">約 20色</p>
-      </div>
-      <div><img src="images/A1_park_multicolor.jpg" alt="多色発光の公園" style="border-radius:4px;"></div>
     </div>
   </div>
 </section>
 
-<img src="images/P4_sakura.jpg" alt="発光する桜" class="full-img">
+<section class="section-cream section" style="text-align:center;">
+  <div class="container">
+    <div class="section-label">Core-Technology</div>
+    <h2 style="font-family:var(--serif);font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:400;letter-spacing:0.08em;margin-bottom:12px;">CORE-TECHNOLOGY</h2>
+    <p style="font-size:0.92rem;color:var(--lep-gray);margin-bottom:48px;">類例のない独自の発光タンパク質技術</p>
+    
+    <div style="background:#000;border-radius:8px;overflow:hidden;max-width:900px;margin:0 auto 40px;">
+      <img src="images/ペチュニアー2_永井提供.jpg" alt="発光するペチュニア" style="width:100%;aspect-ratio:21/9;object-fit:cover;">
+    </div>
+    
+    <h3 style="font-family:'Noto Serif JP',serif;font-size:clamp(1.2rem,2.2vw,1.6rem);font-weight:600;margin-bottom:16px;">高光度発光タンパク質ナノランタン（Nano-lantern）</h3>
+    <p style="font-size:0.88rem;color:#555;line-height:1.9;max-width:680px;margin:0 auto;">永井健治教授の研究グループは、化学発光タンパク質 × 蛍光タンパク質を融合させた高光度発光タンパク質 Nano-lantern（ナノランタン）を開発しました。</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="tech-grid">
+    <div class="tech-card">
+      <img src="images/tech_01_luminescence.jpg" alt="自発光する植物" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;margin-bottom:20px;">
+      <h3>自律的な発光</h3>
+      <div class="tech-en">Autonomous Luminescence</div>
+      <div class="tech-sub">基質添加が不要な「自発光化」技術</div>
+      <p>発光キノコの生物発光システムを植物内で再設計。外部からの基質添加なしで、持続的に光る自律的な回路を構築しています。</p>
+    </div>
+    <div class="tech-card">
+      <img src="images/tech_02_brightness.jpg" alt="ナノランタン" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;margin-bottom:20px;">
+      <h3>明るさの向上</h3>
+      <div class="tech-en">High Brightness</div>
+      <div class="tech-sub">卓越した「高光度化」技術</div>
+      <p>発光酵素と蛍光タンパク質を融合させた独自技術「ナノランタン」により、エネルギー移動を最適化し、従来比20倍の明るさを実現。</p>
+    </div>
+    <div class="tech-card">
+      <img src="images/tech_03_multicolor.jpg" alt="多色発光タンパク質" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;margin-bottom:20px;">
+      <h3>多彩な表現力</h3>
+      <div class="tech-en">Multi-Color</div>
+      <div class="tech-sub">最先端の「多色化」技術</div>
+      <p>光の波長を高度に制御することで、発光タンパク質において約20色のバリエーションを実現。将来的にはイルミネーションや景観演出に無限の可能性をもたらします。</p>
+    </div>
+  </div>
+</section>
 
 <section class="section" style="text-align:center;">
-  <div class="container" style="max-width:800px;">
+  <div class="container">
     <div class="section-label">Applications</div>
-    <h2 class="section-title">応用可能性</h2>
-    <p class="section-subtitle" style="margin:0 auto;">LEPの技術は空間演出やライフスタイル製品にとどまらず、将来的にはセンサー用途（植物の水分・栄養状態を光で検知）や、発展途上国における電力不要の照明インフラとしての活用も視野に入れています。</p>
+    <h2 class="section-title">応用領域</h2>
+    <p class="section-subtitle" style="margin:0 auto 48px;">ナノランタン技術は、バイオイメージングおよび遺伝子発現技術を基盤として、生命科学研究から環境・都市インフラまで幅広い分野への応用が可能です。</p>
+    
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px;text-align:left;">
+      <div style="border-top:2px solid var(--lep-green);padding-top:24px;">
+        <h3 style="font-size:1.05rem;font-weight:600;margin-bottom:12px;">発光バイオセンサー</h3>
+        <p style="font-size:0.82rem;color:#555;line-height:1.8;">ナノランタンは、カルシウムイオンやATP、膜電位などの生理活性を高感度で検出する発光バイオセンサーとして応用されています。</p>
+      </div>
+      <div style="border-top:2px solid var(--lep-green);padding-top:24px;">
+        <h3 style="font-size:1.05rem;font-weight:600;margin-bottom:12px;">個体レベルバイオイメージング</h3>
+        <p style="font-size:0.82rem;color:#555;line-height:1.8;">高輝度発光により、従来困難であった個体レベルでのリアルタイム観察が可能に。多色同時観察やビデオレートでの細胞活動の観測を実現。</p>
+      </div>
+      <div style="border-top:2px solid var(--lep-green);padding-top:24px;">
+        <h3 style="font-size:1.05rem;font-weight:600;margin-bottom:12px;">植物発光技術</h3>
+        <p style="font-size:0.82rem;color:#555;line-height:1.8;">ナノランタン遺伝子を植物に導入することで自発光植物の開発を推進。三色に発光するゼニゴケの作製にも成功しています。</p>
+      </div>
+    </div>
   </div>
 </section>
 
+<section class="section-dark section" style="text-align:center;">
+  <div class="container">
+    <div class="section-label">Social Implementation</div>
+    <h2 class="section-title" style="color:#fff;">社会実装の可能性</h2>
+    <p style="color:rgba(255,255,255,0.5);max-width:640px;margin:0 auto 48px;font-size:0.88rem;">発光植物技術は以下の用途への応用が検討されています。</p>
+    
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px;text-align:left;">
+      <div>
+        <img src="images/A1_park_green.jpg" alt="照明インフラ" style="width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;margin-bottom:16px;">
+        <h3 style="color:#fff;font-size:1.05rem;font-weight:600;margin-bottom:8px;">照明インフラ</h3>
+        <p style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.8;">自発光街路樹や公園照明、景観照明など、電力を必要としない照明技術の実現へ。</p>
+      </div>
+      <div>
+        <img src="images/C3_cafe_terrace.jpg" alt="環境センシング" style="width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;margin-bottom:16px;">
+        <h3 style="color:#fff;font-size:1.05rem;font-weight:600;margin-bottom:8px;">環境センシング</h3>
+        <p style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.8;">環境変化に応答して発光する植物型バイオセンサー。環境汚染物質の検知や生態系のモニタリングに。</p>
+      </div>
+      <div>
+        <img src="images/E4_shibuya_green.jpg" alt="スマートシティ" style="width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;margin-bottom:16px;">
+        <h3 style="color:#fff;font-size:1.05rem;font-weight:600;margin-bottom:8px;">スマートシティ</h3>
+        <p style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.8;">自然環境と都市インフラを融合した環境共生型都市システムの構築に寄与。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="text-align:center;">
+  <div class="container" style="max-width:700px;">
+    <h2 style="font-family:'Noto Serif JP',serif;font-size:clamp(1.1rem,2vw,1.4rem);font-weight:400;line-height:1.8;margin-bottom:32px;">類例のない独自の発光タンパク質技術を駆使して<br>未来の可能性を一緒に探りませんか？</h2>
+    <a href="contact.html" class="nav-cta" style="display:inline-block;padding:16px 48px;font-size:0.85rem;">お問い合わせ →</a>
+  </div>
+</section>
 <section class="section-dark" style="padding:80px 0;text-align:center;">
   <div class="container" style="max-width:560px;">
     <p style="font-family:var(--serif);font-size:1.1rem;color:#fff;margin-bottom:8px;letter-spacing:0.06em;">生命の光を未来の灯りに</p>
