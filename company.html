@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company | LEP – Light Emitting Plants</title>
+<meta name="description" content="LEPは、独自の自発光化・高光度化技術により、電力不要で環境負荷の低い「自ら光る植物」の社会実装を目指します。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🌿</text></svg>">
+</head>
+<body>
+<div class="top-bar">Ethical Luxury</div>
+<header class="site-header">
+<div class="container">
+  <a href="index.html" class="logo">LEP</a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">HOME</a>
+<a href="about.html">ABOUT</a>
+<a href="technology.html">TECHNOLOGY</a>
+<a href="projects.html">PROJECTS</a>
+<a href="company.html" class="active">COMPANY</a>
+<a href="news.html">NEWS</a>
+
+    <a href="contact.html" class="nav-cta">お問い合わせ</a>
+  </nav>
+  <button class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <h1>Company</h1>
+    <p>会社概要</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:800px;">
+    <table class="company-table">
+      <tr><th>会社名</th><td>LEP株式会社</td></tr>
+      <tr><th>英語名</th><td>LEP Inc.</td></tr>
+      <tr><th>代表取締役</th><td>高元 丈治</td></tr>
+      <tr><th>事業内容</th><td>自発光植物の研究開発・社会実装<br>空間演出事業<br>ライフスタイル事業<br>照明インフラ事業</td></tr>
+      <tr><th>技術基盤</th><td>大阪大学発 バイオルミネセンス技術</td></tr>
+      <tr><th>Webサイト</th><td><a href="https://www.start-lep.jp/" style="color:var(--lep-green);">https://www.start-lep.jp/</a></td></tr>
+      <tr><th>お問い合わせ</th><td><a href="mailto:info@start-lep.jp" style="color:var(--lep-green);">info@start-lep.jp</a></td></tr>
+    </table>
+  </div>
+</section>
+
+<img src="images/A3_riverside_green.jpg" alt="発光する川沿いの樹木" class="full-img">
+
+<section class="section" style="text-align:center;">
+  <div class="container" style="max-width:800px;">
+    <div class="section-label">Partners & Advisors</div>
+    <h2 class="section-title">パートナー・アドバイザー</h2>
+    <p class="section-subtitle" style="margin:0 auto;">LEPは、バイオテクノロジー、ビジネス開発、クリエイティブの各分野における第一線の専門家とともに、自発光植物の社会実装を推進しています。</p>
+    <p style="margin-top:24px;font-size:0.85rem;color:var(--lep-gray);">※詳細は準備中です</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+<div class="container">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">LEP</div>
+      <p>生命の叡智で、地球に癒しを。<br>LEPは自発光植物の社会実装を通じて、環境と調和した新しい光の文化を創造します。</p>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <a href="about.html">About</a>
+      <a href="technology.html">Technology</a>
+      <a href="projects.html">Projects</a>
+      <a href="company.html">Company</a>
+      <a href="news.html">News</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="contact.html">お問い合わせ</a>
+      <a href="mailto:info@start-lep.jp">info@start-lep.jp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 LEP Inc. All rights reserved.</span>
+    <div class="footer-sns">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="X">X</a>
+    </div>
+  </div>
+</div>
+</footer>
+<script>
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.querySelector('.faq-q').addEventListener('click', () => {
+    item.classList.toggle('open');
+  });
+});
+</script>
+</body>
+</html>

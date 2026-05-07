@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News | LEP – Light Emitting Plants</title>
+<meta name="description" content="LEPは、独自の自発光化・高光度化技術により、電力不要で環境負荷の低い「自ら光る植物」の社会実装を目指します。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🌿</text></svg>">
+</head>
+<body>
+<div class="top-bar">Ethical Luxury</div>
+<header class="site-header">
+<div class="container">
+  <a href="index.html" class="logo">LEP</a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">HOME</a>
+<a href="about.html">ABOUT</a>
+<a href="technology.html">TECHNOLOGY</a>
+<a href="projects.html">PROJECTS</a>
+<a href="company.html">COMPANY</a>
+<a href="news.html" class="active">NEWS</a>
+
+    <a href="contact.html" class="nav-cta">お問い合わせ</a>
+  </nav>
+  <button class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <h1>News</h1>
+    <p>最新情報</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:800px;">
+    <div class="news-list">
+      <div class="news-item"><span class="news-date">2026.05</span><span class="news-tag">Info</span><span class="news-title">Webサイトをリニューアルしました</span></div>
+      <div class="news-item"><span class="news-date">2026.04</span><span class="news-tag">Event</span><span class="news-title">東急不動産「GREEN × VALLEY SHIBUYA」プログラムに採択されました</span></div>
+      <div class="news-item"><span class="news-date">2026.04</span><span class="news-tag">Media</span><span class="news-title">読売新聞SNSにて発光植物が大きな反響を呼びました</span></div>
+      <div class="news-item"><span class="news-date">2026.03</span><span class="news-tag">Info</span><span class="news-title">ROKU KYOTOでの展示が決定しました</span></div>
+      <div class="news-item"><span class="news-date">2025</span><span class="news-tag">Event</span><span class="news-title">大阪・関西万博にて発光植物インスタレーションを展示しました</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-cream section" style="text-align:center;">
+  <div class="container">
+    <h2 class="section-title">メールマガジン</h2>
+    <p class="section-subtitle" style="margin:0 auto 32px;">LEPの最新情報をお届けします。</p>
+    <form style="max-width:420px;margin:0 auto;display:flex;gap:8px;">
+      <input type="email" placeholder="メールアドレス" style="flex:1;padding:14px 16px;border:1px solid #ddd;border-radius:2px;font-size:0.88rem;">
+      <button type="submit" class="btn-submit" style="padding:14px 24px;">登録</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+<div class="container">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">LEP</div>
+      <p>生命の叡智で、地球に癒しを。<br>LEPは自発光植物の社会実装を通じて、環境と調和した新しい光の文化を創造します。</p>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <a href="about.html">About</a>
+      <a href="technology.html">Technology</a>
+      <a href="projects.html">Projects</a>
+      <a href="company.html">Company</a>
+      <a href="news.html">News</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="contact.html">お問い合わせ</a>
+      <a href="mailto:info@start-lep.jp">info@start-lep.jp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 LEP Inc. All rights reserved.</span>
+    <div class="footer-sns">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="X">X</a>
+    </div>
+  </div>
+</div>
+</footer>
+<script>
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.querySelector('.faq-q').addEventListener('click', () => {
+    item.classList.toggle('open');
+  });
+});
+</script>
+</body>
+</html>
