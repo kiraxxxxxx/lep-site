@@ -284,17 +284,31 @@ ul { list-style: none; }
   .hero-content h1 { font-size: 1.6rem; }
 }
 
-/* --- Language Toggle --- */
-.lang-toggle {
-  color: rgba(255,255,255,0.5) !important;
-  font-size: 0.7rem !important;
-  letter-spacing: 0.12em;
-  border: 1px solid rgba(255,255,255,0.2);
-  padding: 4px 10px !important;
+/* --- Top Bar with Language Toggle --- */
+.top-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.top-bar span { /* keep existing styling inherited */ }
+.lang-toggle-top {
+  position: absolute;
+  right: clamp(16px, 4vw, 60px);
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255,255,255,0.7);
+  font-size: 0.68rem;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 3px 10px;
   border-radius: 2px;
   transition: all 0.3s;
+  text-decoration: none;
 }
-.lang-toggle:hover {
-  color: #fff !important;
-  border-color: rgba(255,255,255,0.5);
+.lang-toggle-top:hover {
+  color: #fff;
+  border-color: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.08);
 }
