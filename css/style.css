@@ -283,3 +283,18 @@ ul { list-style: none; }
   .parc-grid { grid-template-columns: 1fr; }
   .hero-content h1 { font-size: 1.6rem; }
 }
+
+/* --- Language Toggle --- */
+.lang-toggle {
+  color: rgba(255,255,255,0.5) !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.12em;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 4px 10px !important;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+.lang-toggle:hover {
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.5);
+}
