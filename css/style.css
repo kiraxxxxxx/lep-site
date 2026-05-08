@@ -167,7 +167,7 @@ ul { list-style: none; }
 .biz-item { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: center; padding: clamp(48px, 6vw, 80px) 0; border-bottom: 1px solid rgba(0,0,0,0.06); }
 .biz-item:nth-child(even) .biz-img { order: 2; }
 .biz-item:nth-child(even) .biz-text { order: 1; }
-.biz-num { font-family: var(--serif); font-size: 1.1rem; letter-spacing: 0.2em; background: var(--lep-dark); color: #fff; display: inline-block; padding: 8px 20px; border-radius: 24px; margin-bottom: 16px; }
+.biz-num { font-family: var(--serif); font-size: 1.7rem; letter-spacing: 0.2em; background: var(--lep-dark); color: #fff; display: inline-block; padding: 8px 20px; border-radius: 24px; margin-bottom: 16px; }
 .biz-en { font-family: var(--serif); font-size: 0.8rem; color: var(--lep-gray); letter-spacing: 0.1em; margin-bottom: 8px; }
 .biz-item h3 { font-family: 'Noto Serif JP', serif; font-size: clamp(1.3rem, 2.2vw, 1.8rem); font-weight: 600; margin-bottom: 12px; }
 .biz-item .biz-catch { font-weight: 500; font-size: 0.95rem; color: var(--lep-green); margin-bottom: 16px; line-height: 1.7; }
