@@ -342,3 +342,6 @@ html[lang="en"] .nav-links a { font-size: 0.92rem; }
 
 /* nav logo image (header) */
 .site-header .logo img { height: 26px; width: auto; display: block; }
+
+/* footer logo image */
+.site-footer .logo img { height: 30px; width: auto; display: block; }
