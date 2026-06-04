@@ -11,12 +11,12 @@
 html { scroll-behavior: smooth; font-size: 16px; }
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #1a1a1a;
   background: #fff;
   line-height: 1.85;
   letter-spacing: 0.02em;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: auto;
 }
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; }
@@ -185,7 +185,7 @@ ul { list-style: none; }
 .status-completed { background: var(--lep-green); color: #fff; }
 .status-upcoming { background: var(--lep-gold); color: #fff; }
 .project-card h3 { font-family: 'Noto Serif JP', serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
-.project-card p { font-size: 0.9rem; color: #666; line-height: 1.7; }
+.project-card p { font-size: 0.9rem; color: #444; line-height: 1.7; }
 
 /* --- PARC Values --- */
 .parc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--lep-border); }
