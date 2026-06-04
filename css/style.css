@@ -110,7 +110,7 @@ ul { list-style: none; }
   letter-spacing: 0.06em;
 }
 .hero-content p {
-  color: rgba(255,255,255,0.65); font-size: 0.92rem;
+  color: rgba(255,255,255,0.65); font-size: 1rem;
   line-height: 2; max-width: 600px; margin: 0 auto 40px;
 }
 .hero-scroll {
@@ -137,7 +137,7 @@ ul { list-style: none; }
   letter-spacing: 0.04em;
 }
 .section-subtitle {
-  font-size: 0.92rem; color: var(--lep-gray);
+  font-size: 1rem; color: var(--lep-gray);
   max-width: 640px; line-height: 1.9;
 }
 .section-dark .section-subtitle { color: rgba(255,255,255,0.55); }
@@ -148,7 +148,7 @@ ul { list-style: none; }
 }
 .vision-block .vision-label { color: var(--lep-gold); font-family: var(--serif); font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 24px; }
 .vision-block h2 { font-family: 'Noto Serif JP', serif; color: #fff; font-size: clamp(1.4rem, 2.8vw, 2rem); font-weight: 600; line-height: 1.7; margin-bottom: 24px; }
-.vision-block p { color: rgba(255,255,255,0.55); max-width: 600px; margin: 0 auto; font-size: 0.88rem; line-height: 2; }
+.vision-block p { color: rgba(255,255,255,0.55); max-width: 600px; margin: 0 auto; font-size: 0.96rem; line-height: 2; }
 
 /* --- 3-Column Tech --- */
 .tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(0,0,0,0.06); }
@@ -159,8 +159,8 @@ ul { list-style: none; }
 .tech-card:hover { background: var(--lep-off-white); }
 .tech-card h3 { font-family: 'Noto Serif JP', serif; font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 600; margin-bottom: 8px; }
 .tech-card .tech-en { font-family: var(--serif); font-size: 0.75rem; color: var(--lep-gray); letter-spacing: 0.12em; margin-bottom: 6px; }
-.tech-card .tech-sub { font-weight: 500; font-size: 0.88rem; margin-bottom: 16px; color: var(--lep-green); }
-.tech-card p { font-size: 0.82rem; color: #555; line-height: 1.9; }
+.tech-card .tech-sub { font-weight: 500; font-size: 0.96rem; margin-bottom: 16px; color: var(--lep-green); }
+.tech-card p { font-size: 0.9rem; color: #555; line-height: 1.9; }
 .tech-card .key-num { font-family: var(--serif); font-size: 2.4rem; font-weight: 700; color: var(--lep-green); display: block; margin: 16px 0 8px; }
 
 /* --- Business Segments --- */
@@ -170,8 +170,8 @@ ul { list-style: none; }
 .biz-num { font-family: var(--serif); font-size: 1.7rem; letter-spacing: 0.2em; background: var(--lep-dark); color: #fff; display: inline-block; padding: 8px 20px; border-radius: 24px; margin-bottom: 16px; }
 .biz-en { font-family: var(--serif); font-size: 0.8rem; color: var(--lep-gray); letter-spacing: 0.1em; margin-bottom: 8px; }
 .biz-item h3 { font-family: 'Noto Serif JP', serif; font-size: clamp(1.3rem, 2.2vw, 1.8rem); font-weight: 600; margin-bottom: 12px; }
-.biz-item .biz-catch { font-weight: 500; font-size: 0.95rem; color: var(--lep-green); margin-bottom: 16px; line-height: 1.7; }
-.biz-item p { font-size: 0.85rem; color: #555; line-height: 1.9; }
+.biz-item .biz-catch { font-weight: 500; font-size: 1.03rem; color: var(--lep-green); margin-bottom: 16px; line-height: 1.7; }
+.biz-item p { font-size: 0.93rem; color: #555; line-height: 1.9; }
 .biz-img { border-radius: 4px; overflow: hidden; }
 .biz-img img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
 
@@ -185,7 +185,7 @@ ul { list-style: none; }
 .status-completed { background: var(--lep-green); color: #fff; }
 .status-upcoming { background: var(--lep-gold); color: #fff; }
 .project-card h3 { font-family: 'Noto Serif JP', serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
-.project-card p { font-size: 0.82rem; color: #666; line-height: 1.7; }
+.project-card p { font-size: 0.9rem; color: #666; line-height: 1.7; }
 
 /* --- PARC Values --- */
 .parc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--lep-border); }
@@ -197,7 +197,7 @@ ul { list-style: none; }
 .parc-letter { font-family: var(--serif); font-size: clamp(2.4rem, 4vw, 3.6rem); font-weight: 700; color: var(--lep-gold); margin-bottom: 8px; }
 .parc-en { font-family: var(--serif); font-size: 0.85rem; color: #fff; letter-spacing: 0.08em; margin-bottom: 4px; }
 .parc-jp { font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-bottom: 16px; }
-.parc-desc { font-size: 0.78rem; color: rgba(255,255,255,0.45); line-height: 1.8; }
+.parc-desc { font-size: 0.86rem; color: rgba(255,255,255,0.45); line-height: 1.8; }
 
 /* --- FAQ Accordion --- */
 .faq-item { border-bottom: 1px solid rgba(0,0,0,0.08); }
@@ -206,7 +206,7 @@ ul { list-style: none; }
 .faq-item.open .faq-q::after { transform: rotate(45deg); }
 .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s; }
 .faq-item.open .faq-a { max-height: 400px; padding-bottom: 24px; }
-.faq-a p { font-size: 0.85rem; color: #555; line-height: 1.9; }
+.faq-a p { font-size: 0.93rem; color: #555; line-height: 1.9; }
 
 /* --- Footer --- */
 .site-footer {
@@ -215,11 +215,11 @@ ul { list-style: none; }
 }
 .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
 .footer-brand .logo { margin-bottom: 16px; }
-.footer-brand p { font-size: 0.78rem; line-height: 1.9; max-width: 320px; }
-.footer-col h4 { color: rgba(255,255,255,0.7); font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 16px; }
-.footer-col a { display: block; font-size: 0.8rem; margin-bottom: 10px; transition: color 0.3s; }
+.footer-brand p { font-size: 0.86rem; line-height: 1.9; max-width: 320px; }
+.footer-col h4 { color: rgba(255,255,255,0.7); font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 16px; }
+.footer-col a { display: block; font-size: 0.88rem; margin-bottom: 10px; transition: color 0.3s; }
 .footer-col a:hover { color: rgba(255,255,255,0.8); }
-.footer-bottom { border-top: 1px solid var(--lep-border); padding-top: 24px; display: flex; justify-content: space-between; font-size: 0.7rem; }
+.footer-bottom { border-top: 1px solid var(--lep-border); padding-top: 24px; display: flex; justify-content: space-between; font-size: 0.78rem; }
 .footer-sns a { margin-left: 16px; }
 
 /* --- Contact Form --- */
@@ -244,7 +244,7 @@ ul { list-style: none; }
 .company-table { width: 100%; max-width: 720px; }
 .company-table tr { border-bottom: 1px solid rgba(0,0,0,0.06); }
 .company-table th { padding: 16px 24px 16px 0; font-size: 0.82rem; font-weight: 500; width: 160px; vertical-align: top; color: var(--lep-green); }
-.company-table td { padding: 16px 0; font-size: 0.85rem; color: #444; }
+.company-table td { padding: 16px 0; font-size: 0.93rem; color: #444; }
 
 /* --- Full-bleed Image --- */
 .full-img { width: 100%; aspect-ratio: 21/9; object-fit: cover; }
@@ -255,7 +255,7 @@ ul { list-style: none; }
   background: var(--lep-dark); padding: 140px 0 80px; text-align: center;
 }
 .page-header h1 { font-family: var(--serif); color: #fff; font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 400; letter-spacing: 0.1em; margin-bottom: 16px; }
-.page-header p { color: rgba(255,255,255,0.45); font-size: 0.85rem; }
+.page-header p { color: rgba(255,255,255,0.45); font-size: 0.93rem; }
 
 /* --- News --- */
 .news-list {}
