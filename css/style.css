@@ -338,3 +338,7 @@ html[lang="en"] .hero h1, html[lang="en"] .section-title {
 }
 html[lang="en"] .nav-links { gap: clamp(12px,1.8vw,24px); }
 html[lang="en"] .nav-links a { font-size: 0.92rem; }
+
+
+/* nav logo image (header) */
+.site-header .logo img { height: 26px; width: auto; display: block; }
