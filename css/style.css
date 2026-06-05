@@ -340,6 +340,13 @@ html[lang="en"] .hero h1, html[lang="en"] .section-title {
 html[lang="en"] .nav-links { gap: clamp(12px,1.8vw,24px); }
 html[lang="en"] .nav-links a { font-size: 0.841rem; } /* root底上げ後も従来表示を維持（ヘッダー崩れ防止） */
 html[lang="en"] .section-subtitle { font-size: 0.914rem; } /* サブタイトルは据置（≒16px）。本文との差を詰める */
+/* EN: デザインで小さく入れている金/緑のラベル類を底上げ（高元さん要望 2026-06-05）
+   LIGHT EMITTING PLANTS / About / Vision / Core-Technology / Self-Luminescence Technology / Space Design 等 */
+html[lang="en"] .hero-content .tagline { font-size: 0.95rem; letter-spacing: 0.3em; }
+html[lang="en"] .section-label { font-size: 0.95rem; }
+html[lang="en"] .vision-block .vision-label { font-size: 0.95rem; }
+html[lang="en"] .tech-card .tech-en { font-size: 0.98rem; }
+html[lang="en"] .biz-en { font-size: 1rem; }
 
 
 /* nav logo image (header) */
