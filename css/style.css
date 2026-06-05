@@ -325,6 +325,7 @@ ul { list-style: none; }
 html[lang="en"] {
   --sans: 'Optima','Optima nova','Candara','Segoe UI','Helvetica Neue',Arial,sans-serif;
   --serif: 'Optima','Optima nova','Candara','Segoe UI','Helvetica Neue',Arial,sans-serif;
+  font-size: 17.5px; /* Optimaが小さく見えるため本文・見出しを底上げ（rem基準を引き上げ） */
 }
 html[lang="en"] body { font-family: var(--sans); font-weight: 400; letter-spacing: 0.01em; }
 html[lang="en"] h1, html[lang="en"] h2, html[lang="en"] h3,
@@ -337,7 +338,8 @@ html[lang="en"] .hero h1, html[lang="en"] .section-title {
   overflow-wrap: normal; word-break: normal; hyphens: none;
 }
 html[lang="en"] .nav-links { gap: clamp(12px,1.8vw,24px); }
-html[lang="en"] .nav-links a { font-size: 0.92rem; }
+html[lang="en"] .nav-links a { font-size: 0.841rem; } /* root底上げ後も従来表示を維持（ヘッダー崩れ防止） */
+html[lang="en"] .section-subtitle { font-size: 0.914rem; } /* サブタイトルは据置（≒16px）。本文との差を詰める */
 
 
 /* nav logo image (header) */
