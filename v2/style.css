@@ -32,6 +32,7 @@ a{color:inherit;text-decoration:none;}
 }
 
 .container{max-width:var(--max);margin:0 auto;padding:0 clamp(24px,5vw,72px);}
+.container-wide{max-width:1440px;margin:0 auto;padding:0 clamp(24px,5vw,72px);}
 
 /* type scale：3段に固定（安田さん「大きいポイントと本文で差・種類は揃える」） */
 .t-label{font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--ink-3);font-weight:600;}
@@ -107,7 +108,7 @@ a{color:inherit;text-decoration:none;}
 .biz-media img{width:100%;aspect-ratio:4/3;object-fit:cover;}
 .biz-num{font-size:0.8rem;letter-spacing:0.2em;color:var(--ink-3);margin-bottom:14px;}
 .biz h3{margin-bottom:14px;}
-.biz .catch{font-weight:500;color:var(--ink);margin-bottom:14px;}
+.biz .catch{font-weight:500;color:var(--ink);margin-bottom:14px;font-size:clamp(1.1rem,1.7vw,1.32rem);line-height:1.6;}
 
 /* full-bleed 写真（色はここで入る） */
 .full-img{width:100%;aspect-ratio:21/9;object-fit:cover;}
