@@ -190,3 +190,23 @@ a{color:inherit;text-decoration:none;}
 @media(max-width:600px){
   .gallery{grid-template-columns:1fr 1fr;}
 }
+
+/* ============================================================
+   EN pages (v2/en/) : フォントのみOptima系に差し替え（高元さん要望でEN字形は据置）
+   デザイン（純白・統一トーン・中央寄せ・幅広・キャッチ拡大）はJP v2と共通。
+   ============================================================ */
+html[lang="en"]{
+  --sans:'Optima','Optima nova','Candara','Segoe UI','Helvetica Neue',Arial,sans-serif;
+  font-size:17.5px; /* Optimaが小さく見えるため底上げ（既存en設定を踏襲） */
+}
+html[lang="en"] body{font-family:var(--sans);font-weight:400;letter-spacing:0.01em;}
+html[lang="en"] .t-h1,html[lang="en"] .t-h2,html[lang="en"] .t-h3{
+  font-family:var(--sans);font-weight:600;letter-spacing:0.005em;
+  overflow-wrap:normal;word-break:normal;hyphens:none;
+}
+html[lang="en"] .nav-links a{font-size:0.7rem;} /* root底上げ後もヘッダー従来感を維持 */
+html[lang="en"] .t-label{font-size:0.7rem;}
+/* EN: ヒーロー見出しは英文が長いので最大幅を広げ、指定の2行(<br>)で収める */
+html[lang="en"] .hero h1{max-width:22ch;}
+html[lang="en"] .hero-inner.centered h1{margin-left:auto;margin-right:auto;}
+
