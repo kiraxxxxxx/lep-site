@@ -212,3 +212,24 @@ html[lang="en"] .hero-inner.centered h1{margin-left:auto;margin-right:auto;}
 /* EN: 中央寄せ見出し(Vision/Core Tech)も英文が長いので幅を広げ<br>通りに2行で収める */
 html[lang="en"] .lead.centered{max-width:90ch;}
 
+/* ============================================================
+   Motion v1（2026-06-29）: 控えめなフワッと（ライブラリ不要）
+   - reveal: スクロールで画面に入った要素をフェード＋8px上移動
+   - hero: 背景をゆっくりズーム＋スクロールで微パララックス
+   prefers-reduced-motion 尊重（OFFの人には動かさない）
+   ============================================================ */
+.reveal{opacity:0;transform:translateY(16px);
+  transition:opacity .9s cubic-bezier(.2,.6,.2,1),transform .9s cubic-bezier(.2,.6,.2,1);
+  will-change:opacity,transform;}
+.reveal.is-visible{opacity:1;transform:none;}
+
+/* ヒーロー背景：ゆっくりズーム（loadで効かせる）＋JSパララックス用のtransform原点 */
+.hero-bg{transform:scale(1.06);transition:transform 8s ease-out;will-change:transform;}
+.hero-bg.zoomed{transform:scale(1.0);}
+
+@media (prefers-reduced-motion: reduce){
+  .reveal{opacity:1;transform:none;transition:none;}
+  .hero-bg{transform:none;transition:none;}
+}
+
+
